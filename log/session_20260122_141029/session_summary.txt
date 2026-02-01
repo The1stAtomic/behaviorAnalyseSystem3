@@ -1,0 +1,87 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260122_141029
+Start Time: 2026-01-22 14:10:29
+End Time: 2026-01-22 14:12:41
+Duration: 131.6 seconds (2.2 minutes)
+Elapsed Time: 127.0 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 45
+Students Tracked: 9
+Student IDs: [1, 2, 3, 4, 5, 6, 8, 9, 10]
+Total Alerts: 29
+Critical Alerts: 12
+Warning/Info Alerts: 17
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 7
+  Critical: 0
+  Warnings: 7
+
+Student #2:
+  Total Alerts: 6
+  Critical: 4
+  Warnings: 2
+  Critical Issues:
+    - [24.7s] Student #2 showing sustained inattention (0.0%)
+    - [33.6s] Student #2 showing sustained inattention (0.0%)
+    - [61.5s] Student #2 showing sustained inattention (0.0%)
+    - [82.4s] Student #2 showing sustained inattention (0.0%)
+
+Student #3:
+  Total Alerts: 5
+  Critical: 5
+  Warnings: 0
+  Critical Issues:
+    - [14.7s] Student #3 showing sustained inattention (0.0%)
+    - [24.7s] Student #3 showing sustained inattention (0.0%)
+    - [33.6s] Student #3 showing sustained inattention (0.0%)
+    - [61.5s] Student #3 showing sustained inattention (9.1%)
+    - [82.4s] Student #3 showing sustained inattention (9.1%)
+
+Student #4:
+  Total Alerts: 2
+  Critical: 0
+  Warnings: 2
+
+Student #5:
+  Total Alerts: 3
+  Critical: 3
+  Warnings: 0
+  Critical Issues:
+    - [82.4s] Student #5 showing sustained inattention (0.0%)
+    - [98.6s] Student #5 showing sustained inattention (0.0%)
+    - [118.6s] Student #5 showing sustained inattention (0.0%)
+
+Student #6:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+Student #8:
+  Total Alerts: 3
+  Critical: 0
+  Warnings: 3
+
+Student #9:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+Student #10:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+======================================================================
+Log files saved to: log\session_20260122_141029
+======================================================================

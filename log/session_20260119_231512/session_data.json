@@ -1,0 +1,23 @@
+{
+  "session_info": {
+    "name": "session_20260119_231512",
+    "start_time": "2026-01-19T23:15:12.283382",
+    "end_time": "2026-01-19T23:15:16.647432",
+    "duration_seconds": 4.36,
+    "elapsed_time_seconds": 2.65
+  },
+  "statistics": {
+    "frames_processed": 4,
+    "students_tracked": 0,
+    "student_ids": [],
+    "total_alerts": 0,
+    "critical_alerts": 0,
+    "warning_alerts": 0
+  },
+  "files": {
+    "frame_log": "frame_log.jsonl",
+    "alert_log": "alerts.jsonl",
+    "metrics_csv": "metrics.csv",
+    "summary_txt": "session_summary.txt"
+  }
+}

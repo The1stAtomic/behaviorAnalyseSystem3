@@ -1,0 +1,44 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260201_182523
+Start Time: 2026-02-01 18:25:23
+End Time: 2026-02-01 18:26:15
+Duration: 52.2 seconds (0.9 minutes)
+Elapsed Time: 41.1 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 32
+Students Tracked: 2
+Student IDs: [1, 2]
+Total Alerts: 6
+Critical Alerts: 5
+Warning/Info Alerts: 1
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 5
+  Critical: 4
+  Warnings: 1
+  Critical Issues:
+    - [5.3s] Student #1 showing sustained inattention (0.0%)
+    - [12.8s] Student #1 showing sustained inattention (0.0%)
+    - [20.3s] Sophea Rath showing sustained inattention (16.7%)
+    - [28.9s] Sophea Rath showing sustained inattention (20.8%)
+
+Student #2:
+  Total Alerts: 1
+  Critical: 1
+  Warnings: 0
+  Critical Issues:
+    - [38.3s] Student #2 showing sustained inattention (0.0%)
+
+======================================================================
+Log files saved to: log\session_20260201_182523
+======================================================================

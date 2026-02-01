@@ -1,0 +1,29 @@
+{
+  "session_info": {
+    "name": "session_20260201_170549",
+    "start_time": "2026-02-01T17:05:49.977098",
+    "end_time": "2026-02-01T17:06:39.133772",
+    "duration_seconds": 49.15,
+    "elapsed_time_seconds": 33.81
+  },
+  "statistics": {
+    "frames_processed": 8,
+    "students_tracked": 4,
+    "student_ids": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "total_alerts": 2,
+    "critical_alerts": 0,
+    "warning_alerts": 2
+  },
+  "files": {
+    "video": "detection_analysis.mp4",
+    "frame_log": "frame_log.jsonl",
+    "alert_log": "alerts.jsonl",
+    "metrics_csv": "metrics.csv",
+    "summary_txt": "session_summary.txt"
+  }
+}

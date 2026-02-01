@@ -1,0 +1,40 @@
+camera:
+  index: 0
+
+video:
+  frame_sample_rate: 2  # Process every 2nd frame for faster detection
+
+detection:
+  model: yolov8s.pt
+  min_confidence: 0.80
+  nms_iou: 0.6
+  min_area_ratio: 0.02
+  person_class_id: 0
+
+tracking:
+  persist: true
+  similarity_threshold: 0.7
+  max_distance_threshold: 100
+  max_inactive_frames: 30
+
+fusion:
+  iou_threshold: 0.3
+  phone_overlap_mode: ratio  # options: iou, ratio, center
+  phone_overlap_threshold: 0.3  # used for ratio mode: intersection/phone_area (reduced from 0.5 for faster detection)
+
+database:
+  api:
+    url: https://attcam.cc/api/logs
+    timeout: 10
+
+debug:
+  show_window: true
+  exit_key: 27
+
+face_recognition:
+  enabled: true
+  known_faces_dir: know_faces
+  det_size: [640, 640]
+  provider: cpu  # cpu or cuda
+  similarity_threshold: 0.35  # cosine similarity on normalized embeddings
+  min_face_size: 40  # skip tiny crops

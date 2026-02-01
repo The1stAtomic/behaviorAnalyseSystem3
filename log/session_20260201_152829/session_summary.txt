@@ -1,0 +1,67 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260201_152829
+Start Time: 2026-02-01 15:28:29
+End Time: 2026-02-01 15:31:07
+Duration: 158.3 seconds (2.6 minutes)
+Elapsed Time: 142.7 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 66
+Students Tracked: 5
+Student IDs: [1, 2, 4, 5, 6]
+Total Alerts: 31
+Critical Alerts: 13
+Warning/Info Alerts: 18
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 10
+  Critical: 8
+  Warnings: 2
+  Critical Issues:
+    - [29.0s] Sophea Rath showing sustained inattention (22.2%)
+    - [40.6s] Sophea Rath showing sustained inattention (16.7%)
+    - [52.0s] Sophea Rath showing sustained inattention (14.3%)
+    - [62.4s] Student #1 showing sustained inattention (11.1%)
+    - [92.9s] Sophea Rath showing sustained inattention (29.4%)
+    - [106.2s] Sophea Rath showing sustained inattention (29.4%)
+    - [120.5s] Sophea Rath showing sustained inattention (29.4%)
+    - [134.5s] Sophea Rath showing sustained inattention (29.4%)
+
+Student #2:
+  Total Alerts: 6
+  Critical: 0
+  Warnings: 6
+
+Student #4:
+  Total Alerts: 5
+  Critical: 0
+  Warnings: 5
+
+Student #5:
+  Total Alerts: 6
+  Critical: 5
+  Warnings: 1
+  Critical Issues:
+    - [62.4s] Student #5 showing sustained inattention (0.0%)
+    - [92.9s] Student #5 showing sustained inattention (0.0%)
+    - [106.2s] Student #5 showing sustained inattention (0.0%)
+    - [120.5s] Student #5 showing sustained inattention (0.0%)
+    - [134.5s] Student #5 showing sustained inattention (0.0%)
+
+Student #6:
+  Total Alerts: 4
+  Critical: 0
+  Warnings: 4
+
+======================================================================
+Log files saved to: log\session_20260201_152829
+======================================================================

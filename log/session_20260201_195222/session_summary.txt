@@ -1,0 +1,36 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260201_195222
+Start Time: 2026-02-01 19:52:22
+End Time: 2026-02-01 19:53:12
+Duration: 49.4 seconds (0.8 minutes)
+Elapsed Time: 38.8 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 24
+Students Tracked: 1
+Student IDs: [1]
+Total Alerts: 3
+Critical Alerts: 3
+Warning/Info Alerts: 0
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 3
+  Critical: 3
+  Warnings: 0
+  Critical Issues:
+    - [12.8s] Pisey likely using phone (risk: 100.0%)
+    - [22.6s] Pisey likely using phone (risk: 100.0%)
+    - [29.1s] Pisey likely using phone (risk: 100.0%)
+
+======================================================================
+Log files saved to: log\session_20260201_195222
+======================================================================

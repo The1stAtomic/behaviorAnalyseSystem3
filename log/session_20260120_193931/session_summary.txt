@@ -1,0 +1,37 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260120_193931
+Start Time: 2026-01-20 19:39:31
+End Time: 2026-01-20 19:40:31
+Duration: 60.3 seconds (1.0 minutes)
+Elapsed Time: 53.8 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 24
+Students Tracked: 2
+Student IDs: [1, 2]
+Total Alerts: 4
+Critical Alerts: 4
+Warning/Info Alerts: 0
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 4
+  Critical: 4
+  Warnings: 0
+  Critical Issues:
+    - [11.9s] Sak showing sustained inattention (16.7%)
+    - [24.7s] Sak showing sustained inattention (25.0%)
+    - [37.9s] Sak showing sustained inattention (22.2%)
+    - [49.9s] Sak showing sustained inattention (25.0%)
+
+======================================================================
+Log files saved to: log\session_20260120_193931
+======================================================================
