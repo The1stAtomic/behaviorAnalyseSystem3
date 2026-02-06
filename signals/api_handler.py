@@ -152,9 +152,9 @@ class APIHandler:
             
             # Attention: apply the same binary logic as phone_risk_score
             attention = getattr(metrics, 'attention_score', 0.0)
-            is_forward = attention > 0.0
-            attention_score = 100.0 if is_forward else 0.0
             has_phone = phone_risk > 0.0
+            is_forward = attention > 0.0
+            attention_score = 100.0 if (is_forward or not has_phone) else 0.0
 
             # Looking away: 0 if forward, 100 if not
             looking_away_rate = 0.0 if is_forward else 100.0

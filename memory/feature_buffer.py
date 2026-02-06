@@ -87,6 +87,9 @@ class StudentFeatureBuffer:
             for direction, count in direction_count.items()
         }
         
+        # Get most recent head direction for immediate attention response
+        most_recent_direction = features_list[-1].head_direction if features_list else None
+        
         return {
             "track_id": self.track_id,
             "feature_count": total,
@@ -95,6 +98,7 @@ class StudentFeatureBuffer:
             "phone_detection_rate": round(phone_rate, 3),
             "phone_detections": phone_detections,
             "head_direction_distribution": {k: round(v, 3) for k, v in direction_dist.items()},
+            "most_recent_direction": most_recent_direction,
             "last_update": self.last_update,
             "identity_name": features_list[-1].identity_name if features_list else None
         }

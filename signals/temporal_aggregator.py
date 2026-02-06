@@ -98,10 +98,17 @@ class TemporalAggregator:
         if sample_count == 0:
             return self._create_empty_metrics(track_id, current_timestamp)
         
-        # Calculate attention score (forward looking rate)
+        # Calculate attention score (most recent direction for instant response)
+        most_recent_direction = buffer_stats.get("most_recent_direction")
         forward_rate = head_directions.get("forward", 0.0)
-        attention_score = forward_rate
-        looking_away_rate = 1.0 - forward_rate
+        
+        # Aggressive: if most recent frame is forward, instant 1.0 attention
+        if most_recent_direction == "forward":
+            attention_score = 1.0
+        else:
+            attention_score = 0.0
+        
+        looking_away_rate = 1.0 - attention_score
         
         # Calculate direction stability (how consistent is behavior)
         if head_directions:

@@ -1,0 +1,34 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260206_170135
+Start Time: 2026-02-06 17:01:35
+End Time: 2026-02-06 17:03:00
+Duration: 85.3 seconds (1.4 minutes)
+Elapsed Time: 59.9 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 37
+Students Tracked: 1
+Student IDs: [1]
+Total Alerts: 1
+Critical Alerts: 1
+Warning/Info Alerts: 0
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 1
+  Critical: 1
+  Warnings: 0
+  Critical Issues:
+    - [6.9s] PRF-00022 showing sustained inattention (0.0%)
+
+======================================================================
+Log files saved to: log\session_20260206_170135
+======================================================================
