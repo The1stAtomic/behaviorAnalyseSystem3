@@ -150,17 +150,17 @@ class APIHandler:
             # Simple metrics for API: binary/categorical instead of continuous
             phone_risk = 100.0 if getattr(metrics, 'phone_risk_score', 0.0) > 0.0 else 0.0
             
-            # Attention: 100 if forward and no phone, else 30
+            # Attention: apply the same binary logic as phone_risk_score
             attention = getattr(metrics, 'attention_score', 0.0)
-            is_forward = attention > 0.5
+            is_forward = attention > 0.0
+            attention_score = 100.0 if is_forward else 0.0
             has_phone = phone_risk > 0.0
-            attention_score = 100.0 if (is_forward and not has_phone) else 30.0
-            
+
             # Looking away: 0 if forward, 100 if not
             looking_away_rate = 0.0 if is_forward else 100.0
-            
+
             # Engagement risk: high if has phone or looking away, low otherwise
-            engagement_risk_score = 100.0 if (has_phone or looking_away_rate > 50.0) else 0.0
+            engagement_risk_score = 100.0 if (has_phone or not is_forward) else 0.0
             engagement_risk_level = "high" if engagement_risk_score > 50.0 else "low"
             
             payload = {

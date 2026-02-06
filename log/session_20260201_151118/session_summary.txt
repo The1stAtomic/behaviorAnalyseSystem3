@@ -1,0 +1,106 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260201_151118
+Start Time: 2026-02-01 15:11:18
+End Time: 2026-02-01 15:14:07
+Duration: 168.5 seconds (2.8 minutes)
+Elapsed Time: 153.0 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 25
+Students Tracked: 12
+Student IDs: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Total Alerts: 29
+Critical Alerts: 19
+Warning/Info Alerts: 10
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 4
+  Critical: 0
+  Warnings: 4
+
+Student #2:
+  Total Alerts: 4
+  Critical: 4
+  Warnings: 0
+  Critical Issues:
+    - [24.0s] Student #2 showing sustained inattention (0.0%)
+    - [55.1s] Student #2 showing sustained inattention (0.0%)
+    - [85.7s] Sophea Rath showing sustained inattention (0.0%)
+    - [125.6s] Sophea Rath showing sustained inattention (0.0%)
+
+Student #3:
+  Total Alerts: 4
+  Critical: 4
+  Warnings: 0
+  Critical Issues:
+    - [24.0s] Vatta showing sustained inattention (0.0%)
+    - [55.1s] Vatta showing sustained inattention (0.0%)
+    - [85.7s] Vatta showing sustained inattention (0.0%)
+    - [125.6s] Vatta showing sustained inattention (0.0%)
+
+Student #4:
+  Total Alerts: 4
+  Critical: 4
+  Warnings: 0
+  Critical Issues:
+    - [24.0s] Student #4 showing sustained inattention (0.0%)
+    - [55.1s] Student #4 showing sustained inattention (0.0%)
+    - [85.7s] Student #4 showing sustained inattention (0.0%)
+    - [125.6s] Student #4 showing sustained inattention (0.0%)
+
+Student #5:
+  Total Alerts: 4
+  Critical: 4
+  Warnings: 0
+  Critical Issues:
+    - [24.0s] Pisey Keo showing sustained inattention (0.0%)
+    - [55.1s] Pisey Keo showing sustained inattention (0.0%)
+    - [85.7s] Pisey Keo showing sustained inattention (0.0%)
+    - [125.6s] Pisey Keo showing sustained inattention (0.0%)
+
+Student #6:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+Student #7:
+  Total Alerts: 4
+  Critical: 3
+  Warnings: 1
+  Critical Issues:
+    - [55.1s] Student #7 showing sustained inattention (0.0%)
+    - [85.7s] Student #7 showing sustained inattention (0.0%)
+    - [125.6s] Student #7 showing sustained inattention (0.0%)
+
+Student #8:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+Student #9:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+Student #11:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+Student #12:
+  Total Alerts: 1
+  Critical: 0
+  Warnings: 1
+
+======================================================================
+Log files saved to: log\session_20260201_151118
+======================================================================

@@ -1,0 +1,5 @@
+timestamp,frame_id,track_id,behavior,engagement_risk_level,engagement_risk_score,attention_score,looking_away_rate,phone_risk_score,phone_detection_rate,phone_trend,direction_stability,sample_count,observation_duration,avg_confidence,data_quality
+2.371,30,1,distracted_other,medium,0.4875,0.25,0.75,0.0,0.0,stable,0.75,4,1.46,0.904,low
+5.216,60,1,distracted_other,medium,0.39,0.4,0.6,0.0,0.0,stable,0.6,10,4.3,0.897,medium
+8.866,90,1,distracted_other,medium,0.4062,0.375,0.625,0.0,0.0,stable,0.562,16,7.95,0.859,medium
+12.787,120,1,attentive,low,0.2957,0.545,0.455,0.0,0.0,stable,0.545,22,11.87,0.864,high

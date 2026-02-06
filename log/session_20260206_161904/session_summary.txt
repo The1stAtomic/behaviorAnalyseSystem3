@@ -1,0 +1,62 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260206_161904
+Start Time: 2026-02-06 16:19:04
+End Time: 2026-02-06 16:20:08
+Duration: 64.2 seconds (1.1 minutes)
+Elapsed Time: 50.8 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 31
+Students Tracked: 2
+Student IDs: [1, 2]
+Total Alerts: 26
+Critical Alerts: 23
+Warning/Info Alerts: 3
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 17
+  Critical: 15
+  Warnings: 2
+  Critical Issues:
+    - [5.0s] PRF-00019 shows high-risk behavior pattern
+    - [5.0s] PRF-00019 showing sustained inattention (0.0%)
+    - [5.0s] PRF-00019 likely using phone (risk: 100.0%)
+    - [5.0s] PRF-00019 showing combined distraction (phone + looking away)
+    - [11.3s] PRF-00019 shows high-risk behavior pattern
+    - [11.3s] PRF-00019 showing sustained inattention (0.0%)
+    - [11.3s] PRF-00019 likely using phone (risk: 100.0%)
+    - [11.3s] PRF-00019 showing combined distraction (phone + looking away)
+    - [18.9s] PRF-00019 shows high-risk behavior pattern
+    - [18.9s] PRF-00019 showing sustained inattention (20.0%)
+    - [18.9s] PRF-00019 likely using phone (risk: 100.0%)
+    - [18.9s] PRF-00019 showing combined distraction (phone + looking away)
+    - [26.5s] PRF-00019 shows high-risk behavior pattern
+    - [26.5s] PRF-00019 likely using phone (risk: 100.0%)
+    - [38.3s] PRF-00019 likely using phone (risk: 100.0%)
+
+Student #2:
+  Total Alerts: 9
+  Critical: 8
+  Warnings: 1
+  Critical Issues:
+    - [38.3s] PRF-00020 shows high-risk behavior pattern
+    - [38.3s] PRF-00020 showing sustained inattention (0.0%)
+    - [38.3s] PRF-00020 likely using phone (risk: 100.0%)
+    - [38.3s] PRF-00020 showing combined distraction (phone + looking away)
+    - [47.0s] PRF-00020 shows high-risk behavior pattern
+    - [47.0s] PRF-00020 showing sustained inattention (0.0%)
+    - [47.0s] PRF-00020 likely using phone (risk: 100.0%)
+    - [47.0s] PRF-00020 showing combined distraction (phone + looking away)
+
+======================================================================
+Log files saved to: log\session_20260206_161904
+======================================================================

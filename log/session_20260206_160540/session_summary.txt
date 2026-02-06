@@ -1,0 +1,35 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260206_160540
+Start Time: 2026-02-06 16:05:40
+End Time: 2026-02-06 16:06:13
+Duration: 32.5 seconds (0.5 minutes)
+Elapsed Time: 13.2 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 10
+Students Tracked: 1
+Student IDs: [1]
+Total Alerts: 2
+Critical Alerts: 2
+Warning/Info Alerts: 0
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 2
+  Critical: 2
+  Warnings: 0
+  Critical Issues:
+    - [5.2s] Pisey showing sustained inattention (0.0%)
+    - [10.9s] Pisey showing sustained inattention (0.0%)
+
+======================================================================
+Log files saved to: log\session_20260206_160540
+======================================================================

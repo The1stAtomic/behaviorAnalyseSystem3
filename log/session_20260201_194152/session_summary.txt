@@ -1,0 +1,53 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260201_194152
+Start Time: 2026-02-01 19:41:52
+End Time: 2026-02-01 19:43:00
+Duration: 68.2 seconds (1.1 minutes)
+Elapsed Time: 57.1 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 31
+Students Tracked: 1
+Student IDs: [1]
+Total Alerts: 21
+Critical Alerts: 20
+Warning/Info Alerts: 1
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 21
+  Critical: 20
+  Warnings: 1
+  Critical Issues:
+    - [5.8s] Pisey shows high-risk behavior pattern
+    - [5.8s] Pisey showing sustained inattention (0.0%)
+    - [5.8s] Pisey likely using phone (risk: 100.0%)
+    - [5.8s] Pisey showing combined distraction (phone + looking away)
+    - [13.4s] Pisey shows high-risk behavior pattern
+    - [13.4s] Pisey showing sustained inattention (20.0%)
+    - [13.4s] Pisey likely using phone (risk: 100.0%)
+    - [13.4s] Pisey showing combined distraction (phone + looking away)
+    - [23.9s] Pisey shows high-risk behavior pattern
+    - [23.9s] Pisey showing sustained inattention (16.7%)
+    - [23.9s] Pisey likely using phone (risk: 100.0%)
+    - [23.9s] Pisey showing combined distraction (phone + looking away)
+    - [34.4s] Pisey shows high-risk behavior pattern
+    - [34.4s] Pisey showing sustained inattention (0.0%)
+    - [34.4s] Pisey likely using phone (risk: 100.0%)
+    - [34.4s] Pisey showing combined distraction (phone + looking away)
+    - [44.4s] Pisey shows high-risk behavior pattern
+    - [44.4s] Pisey likely using phone (risk: 100.0%)
+    - [44.4s] Pisey showing combined distraction (phone + looking away)
+    - [51.5s] Pisey likely using phone (risk: 100.0%)
+
+======================================================================
+Log files saved to: log\session_20260201_194152
+======================================================================

@@ -1,0 +1,45 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260206_160910
+Start Time: 2026-02-06 16:09:10
+End Time: 2026-02-06 16:09:54
+Duration: 43.6 seconds (0.7 minutes)
+Elapsed Time: 27.3 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 13
+Students Tracked: 3
+Student IDs: [1, 2, 3]
+Total Alerts: 6
+Critical Alerts: 6
+Warning/Info Alerts: 0
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 2
+  Critical: 2
+  Warnings: 0
+  Critical Issues:
+    - [6.6s] PRF-00024 showing sustained inattention (20.0%)
+    - [17.0s] PRF-00024 showing sustained inattention (20.0%)
+
+Student #2:
+  Total Alerts: 4
+  Critical: 4
+  Warnings: 0
+  Critical Issues:
+    - [17.0s] Student #2 shows high-risk behavior pattern
+    - [17.0s] Student #2 showing sustained inattention (0.0%)
+    - [17.0s] Student #2 likely using phone (risk: 100.0%)
+    - [17.0s] Student #2 showing combined distraction (phone + looking away)
+
+======================================================================
+Log files saved to: log\session_20260206_160910
+======================================================================

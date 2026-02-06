@@ -1,0 +1,45 @@
+======================================================================
+BEHAVIOR ANALYSIS SESSION SUMMARY
+======================================================================
+
+Session Name: session_20260201_155603
+Start Time: 2026-02-01 15:56:03
+End Time: 2026-02-01 15:57:48
+Duration: 104.8 seconds (1.7 minutes)
+Elapsed Time: 87.8 seconds
+
+----------------------------------------------------------------------
+STATISTICS
+----------------------------------------------------------------------
+Total Frames Processed: 42
+Students Tracked: 2
+Student IDs: [1, 2]
+Total Alerts: 11
+Critical Alerts: 7
+Warning/Info Alerts: 4
+
+----------------------------------------------------------------------
+ALERT SUMMARY BY STUDENT
+----------------------------------------------------------------------
+
+Student #1:
+  Total Alerts: 4
+  Critical: 0
+  Warnings: 4
+
+Student #2:
+  Total Alerts: 7
+  Critical: 7
+  Warnings: 0
+  Critical Issues:
+    - [11.7s] Student #2 showing sustained inattention (0.0%)
+    - [27.0s] Student #2 showing sustained inattention (0.0%)
+    - [39.5s] Student #2 showing sustained inattention (0.0%)
+    - [51.6s] Student #2 showing sustained inattention (0.0%)
+    - [63.9s] Student #2 showing sustained inattention (0.0%)
+    - [74.6s] Student #2 showing sustained inattention (0.0%)
+    - [85.0s] Student #2 showing sustained inattention (0.0%)
+
+======================================================================
+Log files saved to: log\session_20260201_155603
+======================================================================
