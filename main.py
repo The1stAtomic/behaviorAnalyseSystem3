@@ -191,7 +191,7 @@ def main():
   
   # Track last API metric send time
   last_api_metric_send = 0.0
-  api_metric_interval = 10.0  # Send metrics every 10 seconds
+  api_metric_interval = 300.0  # Send metrics every 5 minutes
   
   # Initialize rule-based inference engine
   rule_engine = BehaviorRuleEngine(config={
