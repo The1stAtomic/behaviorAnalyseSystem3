@@ -189,9 +189,9 @@ def main():
   # Initialize temporal aggregator for behavioral metrics
   aggregation_pipeline = TemporalAggregationPipeline()
   
-  # Track last API metric send time
-  last_api_metric_send = 0.0
-  api_metric_interval = 300.0  # Send metrics every 5 minutes
+  # Track last API metric send time per student (send immediately on detection, then every 5 minutes)
+  last_api_metric_send_per_student = {}  # track_id -> timestamp of last API send
+  api_metric_interval = 300.0  # Send metrics every 5 minutes per student
   
   # Initialize rule-based inference engine
   rule_engine = BehaviorRuleEngine(config={
@@ -326,6 +326,8 @@ def main():
         db_handler.check_in_student(session_logger.session_name, player_id)
         students_logged_to_db.add(player_id)
         last_attendance_time[player_id] = timestamp
+        # Initialize to 0 so metrics are sent immediately on first aggregation
+        last_api_metric_send_per_student[player_id] = 0.0
       
       # Check if 5 minutes have passed since last attendance record
       if db_enabled and player_id in last_attendance_time:
@@ -456,12 +458,15 @@ def main():
       # Log behavioral metrics
       session_logger.log_behavioral_metrics(timestamp, frame_count, behavioral_metrics)
       
-      # Send metrics to API every 10 seconds (not every frame)
-      if timestamp - last_api_metric_send >= api_metric_interval:
-        print(f"  [API SEND] Sending metrics at {timestamp:.2f}s")
-        # Log metrics to MySQL/API
-        if db_enabled:
-          for track_id, metrics in behavioral_metrics.items():
+      # Send metrics to API: immediately on first detection, then every 5 minutes per student
+      if db_enabled:
+        for track_id, metrics in behavioral_metrics.items():
+          # Check if this is first time seeing this student or 5 minutes have passed
+          last_send = last_api_metric_send_per_student.get(track_id, 0.0)
+          time_since_last_send = timestamp - last_send
+          
+          if time_since_last_send >= api_metric_interval:
+            print(f"  [API SEND] Sending metrics for Student #{track_id} at {timestamp:.2f}s")
             db_handler.insert_metrics(
                 session_logger.session_name, track_id, 
                 timestamp, frame_count, metrics
@@ -483,8 +488,8 @@ def main():
                 last_attendance_time[track_id] = timestamp
                 identity_str = metrics.identity_name or f"Student #{track_id}"
                 print(f"✓ Periodic attendance recorded for {identity_str} ({time_since_last/60:.1f} min)")
-        
-        last_api_metric_send = timestamp
+            
+            last_api_metric_send_per_student[track_id] = timestamp
       
       # Get summary and high-risk students
       metrics_summary = aggregation_pipeline.get_metrics_summary(behavioral_metrics)
